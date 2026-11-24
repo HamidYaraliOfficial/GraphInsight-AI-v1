@@ -1,0 +1,20 @@
+# Versions with which the extraction engine, analysis modules, exporters and the test-suite (70 tests) were executed (Python 3.12).
+# Python 3.8 - 3.11 use older package releases chosen by pip from requirements.txt (see README, section 4.1).
+# NOTE: streamlit and plotly were NOT installable in the build environment (no network), so the dashboard was
+# smoke-tested against a Streamlit/Plotly stand-in (tests/fake_streamlit.py). Install the ranges in requirements.txt.
+numpy==2.5.4
+scipy==1.18.1
+pandas==3.0.6
+opencv-python-headless==5.0.0.93
+Pillow==13.0.0.post1
+scikit-image==0.26.0
+scikit-learn==1.9.1
+sympy==1.14.0
+matplotlib==3.11.2
+seaborn==0.13.2
+pytesseract==0.3.13
+pypdfium2==5.14.0
+openpyxl==3.1.5
+XlsxWriter==3.2.9
+python-docx==1.2.0
+reportlab==5.0.1
