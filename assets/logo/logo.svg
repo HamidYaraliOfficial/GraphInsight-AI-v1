@@ -1,0 +1,6 @@
+<svg width="256" height="256" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="GraphInsight AI">
+  <rect x="4" y="4" width="56" height="56" rx="14" fill="#1F6FEB" opacity=".12"/>
+  <path d="M12 50 L12 14 M12 50 L52 50" stroke="#1F6FEB" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <path d="M16 42 C24 18, 32 46, 40 26 S50 20, 52 18" stroke="#E5484D" stroke-width="3.2" fill="none" stroke-linecap="round"/>
+  <circle cx="24" cy="31" r="3" fill="#1F6FEB"/><circle cx="40" cy="30" r="3" fill="#1F6FEB"/>
+</svg>
