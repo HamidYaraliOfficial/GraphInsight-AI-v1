@@ -1,0 +1,2316 @@
+{
+ "format": "graphinsight-project",
+ "version": 1,
+ "project_id": "d695009b3f1f",
+ "name": "01_single_linear.png",
+ "created": "2026-11-23T00:25:21",
+ "updated": "2026-11-23T00:25:22",
+ "image_meta": {
+  "name": "01_single_linear.png",
+  "format": "PNG",
+  "width": 770,
+  "height": 495,
+  "dpi": [
+   110.00739999999999,
+   110.00739999999999
+  ]
+ },
+ "settings": {
+  "ocr_backend": "tesseract",
+  "ocr_lang": "eng",
+  "denoise": true,
+  "deskew": true,
+  "enhance_contrast": true,
+  "upscale_small": true,
+  "detect_panels": true,
+  "remove_grid": true,
+  "dense_mode": true,
+  "n_points": 200,
+  "sampling": "adaptive",
+  "curvature_weight": 4.0,
+  "max_gap_px": 25,
+  "color_tolerance": 24.0,
+  "min_series_pixels": 60,
+  "curve_mode": "auto",
+  "detect_error_bars": true,
+  "detect_bands": true,
+  "use_vector_pdf": true,
+  "chart_type": "auto",
+  "x_scale": "auto",
+  "y_scale": "auto",
+  "report_lang": "fa",
+  "manual_series_colors": [],
+  "manual": {}
+ },
+ "preprocess": {
+  "steps": [
+   "upscaled x1.82 (low resolution input)"
+  ],
+  "scale": 1.8181818181818181,
+  "rotation_deg": 0.0,
+  "noise_sigma": 0.0814272226166749,
+  "warnings": [
+   "Low-resolution image: accuracy is limited by the original pixel grid."
+  ],
+  "processed_size": [
+   1400,
+   900
+  ]
+ },
+ "charts": [
+  {
+   "panel_index": 0,
+   "box": {
+    "x0": 174.5,
+    "y0": 108,
+    "x1": 1260.5,
+    "y1": 802.5,
+    "confidence": 0.95,
+    "axis_thickness": 2,
+    "framed": true,
+    "method": "axes-lines(thr=110)",
+    "notes": []
+   },
+   "chart_type": "line",
+   "type_confidence": 0.65,
+   "type_scores": {
+    "line": 0.65
+   },
+   "title": null,
+   "x_axis": {
+    "orientation": "x",
+    "side": "bottom",
+    "line_pos": 802.5,
+    "ticks": [
+     {
+      "pixel": 174.9500408385516,
+      "label": null,
+      "value": null,
+      "conf": 0.0,
+      "source": "ocr"
+     },
+     {
+      "pixel": 393.1445914609194,
+      "label": null,
+      "value": null,
+      "conf": 0.0,
+      "source": "ocr"
+     },
+     {
+      "pixel": 609.5075390414647,
+      "label": null,
+      "value": null,
+      "conf": 0.0,
+      "source": "ocr"
+     },
+     {
+      "pixel": 825.8554085390805,
+      "label": null,
+      "value": null,
+      "conf": 0.0,
+      "source": "ocr"
+     },
+     {
+      "pixel": 1044.0474761255118,
+      "label": null,
+      "value": null,
+      "conf": 0.0,
+      "source": "ocr"
+     },
+     {
+      "pixel": 1260.3818373533677,
+      "label": null,
+      "value": null,
+      "conf": 0.0,
+      "source": "ocr"
+     }
+    ],
+    "title": null,
+    "unit": null,
+    "raw_title": null,
+    "title_conf": 0.0,
+    "tick_direction": "out",
+    "label_color": null,
+    "calibration": null,
+    "warnings": [
+     "Tick labels could not be read reliably by OCR; enter the tick values manually."
+    ]
+   },
+   "y_axis": {
+    "orientation": "y",
+    "side": "left",
+    "line_pos": 174.5,
+    "ticks": [
+     {
+      "pixel": 107.67296703296704,
+      "label": null,
+      "value": null,
+      "conf": 0.0,
+      "source": "ocr"
+     },
+     {
+      "pixel": 224.048076923077,
+      "label": null,
+      "value": null,
+      "conf": 0.0,
+      "source": "ocr"
+     },
+     {
+      "pixel": 338.58793381168545,
+      "label": null,
+      "value": null,
+      "conf": 0.0,
+      "source": "ocr"
+     },
+     {
+      "pixel": 454.95192307692315,
+      "label": null,
+      "value": null,
+      "conf": 0.0,
+      "source": "ocr"
+     },
+     {
+      "pixel": 571.3252127971822,
+      "label": null,
+      "value": null,
+      "conf": 0.0,
+      "source": "ocr"
+     },
+     {
+      "pixel": 685.8525536639526,
+      "label": null,
+      "value": null,
+      "conf": 0.0,
+      "source": "ocr"
+     },
+     {
+      "pixel": 802.240607042876,
+      "label": null,
+      "value": null,
+      "conf": 0.0,
+      "source": "ocr"
+     }
+    ],
+    "title": null,
+    "unit": null,
+    "raw_title": null,
+    "title_conf": 0.0,
+    "tick_direction": "out",
+    "label_color": null,
+    "calibration": null,
+    "warnings": [
+     "Tick labels could not be read reliably by OCR; enter the tick values manually."
+    ]
+   },
+   "y2_axis": null,
+   "legend": [],
+   "series": [
+    {
+     "name": "Series 1",
+     "color": [
+      29,
+      116,
+      179
+     ],
+     "kind": "line",
+     "axis": "y",
+     "points": [
+      {
+       "idx": 0.0,
+       "x": null,
+       "y": null,
+       "px": 178.0,
+       "py": 729.432432460268,
+       "status": "reconstructed",
+       "confidence": 0.4835153603553772,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 1.0,
+       "x": null,
+       "y": null,
+       "px": 186.37224317649543,
+       "py": 724.8910380787335,
+       "status": "reconstructed",
+       "confidence": 0.4859966272115707,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 2.0,
+       "x": null,
+       "y": null,
+       "px": 192.00907052203308,
+       "py": 721.9565680464638,
+       "status": "reconstructed",
+       "confidence": 0.4553523963689804,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 3.0,
+       "x": null,
+       "y": null,
+       "px": 197.16106054391037,
+       "py": 719.0234151724164,
+       "status": "reconstructed",
+       "confidence": 0.4557461768388748,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 4.0,
+       "x": null,
+       "y": null,
+       "px": 202.48701677531656,
+       "py": 716.3570441267309,
+       "status": "reconstructed",
+       "confidence": 0.4625991547107696,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 5.0,
+       "x": null,
+       "y": null,
+       "px": 207.78060405260305,
+       "py": 713.3938015124145,
+       "status": "reconstructed",
+       "confidence": 0.4564428770542145,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 6.0,
+       "x": null,
+       "y": null,
+       "px": 212.78697175681296,
+       "py": 710.934836188385,
+       "status": "reconstructed",
+       "confidence": 0.4651730757951736,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 7.0,
+       "x": null,
+       "y": null,
+       "px": 218.13378225745413,
+       "py": 707.8910527661034,
+       "status": "reconstructed",
+       "confidence": 0.47859562754631035,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 8.0,
+       "x": null,
+       "y": null,
+       "px": 223.4579985140496,
+       "py": 705.1450526499286,
+       "status": "reconstructed",
+       "confidence": 0.4573075890541076,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 9.0,
+       "x": null,
+       "y": null,
+       "px": 228.58773835982623,
+       "py": 702.3828473220159,
+       "status": "reconstructed",
+       "confidence": 0.45726384580135343,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 10.0,
+       "x": null,
+       "y": null,
+       "px": 233.92027130093413,
+       "py": 699.5829360743021,
+       "status": "reconstructed",
+       "confidence": 0.42930819869041437,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 11.0,
+       "x": null,
+       "y": null,
+       "px": 239.66361332051267,
+       "py": 696.5710028577008,
+       "status": "reconstructed",
+       "confidence": 0.49066605985164635,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 12.0,
+       "x": null,
+       "y": null,
+       "px": 244.95190436073392,
+       "py": 693.5736404348024,
+       "status": "reconstructed",
+       "confidence": 0.4940538972616195,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 13.0,
+       "x": null,
+       "y": null,
+       "px": 250.2803628934817,
+       "py": 690.950118425229,
+       "status": "reconstructed",
+       "confidence": 0.43098573267459866,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 14.0,
+       "x": null,
+       "y": null,
+       "px": 255.60748038829104,
+       "py": 687.9249760395177,
+       "status": "reconstructed",
+       "confidence": 0.46016749799251555,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 15.0,
+       "x": null,
+       "y": null,
+       "px": 260.60677296202925,
+       "py": 685.4457798735159,
+       "status": "reconstructed",
+       "confidence": 0.46434149801731106,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 16.0,
+       "x": null,
+       "y": null,
+       "px": 266.06268272481236,
+       "py": 682.3981293142476,
+       "status": "reconstructed",
+       "confidence": 0.463313273191452,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 17.0,
+       "x": null,
+       "y": null,
+       "px": 271.3153039866645,
+       "py": 679.7362689234097,
+       "status": "reconstructed",
+       "confidence": 0.45828708529472345,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 18.0,
+       "x": null,
+       "y": null,
+       "px": 276.4263853156072,
+       "py": 676.899409872346,
+       "status": "reconstructed",
+       "confidence": 0.4520746922492981,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 19.0,
+       "x": null,
+       "y": null,
+       "px": 281.79012770318184,
+       "py": 674.0911434232175,
+       "status": "reconstructed",
+       "confidence": 0.461575459241867,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 20.0,
+       "x": null,
+       "y": null,
+       "px": 287.6072069878516,
+       "py": 671.0554893679288,
+       "status": "reconstructed",
+       "confidence": 0.46776772856712334,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 21.0,
+       "x": null,
+       "y": null,
+       "px": 293.35517364298806,
+       "py": 667.8670122531145,
+       "status": "reconstructed",
+       "confidence": 0.4772867953777313,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 22.0,
+       "x": null,
+       "y": null,
+       "px": 298.95799373472573,
+       "py": 664.9056300499778,
+       "status": "reconstructed",
+       "confidence": 0.46064016222953796,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 23.0,
+       "x": null,
+       "y": null,
+       "px": 304.02508629027994,
+       "py": 662.3038320784506,
+       "status": "reconstructed",
+       "confidence": 0.4649307703971862,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 24.0,
+       "x": null,
+       "y": null,
+       "px": 309.9258778634103,
+       "py": 658.9430809339644,
+       "status": "reconstructed",
+       "confidence": 0.4709076368808746,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 25.0,
+       "x": null,
+       "y": null,
+       "px": 315.3670910473793,
+       "py": 656.2713349156463,
+       "status": "reconstructed",
+       "confidence": 0.46236721515655516,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 26.0,
+       "x": null,
+       "y": null,
+       "px": 320.61915703137703,
+       "py": 653.3520129958721,
+       "status": "reconstructed",
+       "confidence": 0.45772039890289307,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 27.0,
+       "x": null,
+       "y": null,
+       "px": 325.95949275878127,
+       "py": 650.657059886179,
+       "status": "reconstructed",
+       "confidence": 0.4559494507312774,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 28.0,
+       "x": null,
+       "y": null,
+       "px": 331.54619863410346,
+       "py": 647.6005483913756,
+       "status": "reconstructed",
+       "confidence": 0.4821933048963546,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 29.0,
+       "x": null,
+       "y": null,
+       "px": 336.7273231418958,
+       "py": 644.7545039810203,
+       "status": "reconstructed",
+       "confidence": 0.45449777662754054,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 30.0,
+       "x": null,
+       "y": null,
+       "px": 342.10043595720697,
+       "py": 642.1352048217341,
+       "status": "reconstructed",
+       "confidence": 0.4527102309465408,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 31.0,
+       "x": null,
+       "y": null,
+       "px": 348.22412691884324,
+       "py": 638.6357067124397,
+       "status": "reconstructed",
+       "confidence": 0.48485796511173246,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 32.0,
+       "x": null,
+       "y": null,
+       "px": 353.79581499282585,
+       "py": 635.7081116637409,
+       "status": "reconstructed",
+       "confidence": 0.45321347594261163,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 33.0,
+       "x": null,
+       "y": null,
+       "px": 359.33189606422036,
+       "py": 632.8693908825549,
+       "status": "reconstructed",
+       "confidence": 0.4576780235767364,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 34.0,
+       "x": null,
+       "y": null,
+       "px": 365.2881493791545,
+       "py": 629.5617894378687,
+       "status": "reconstructed",
+       "confidence": 0.48495733737945557,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 35.0,
+       "x": null,
+       "y": null,
+       "px": 370.50158974664157,
+       "py": 626.8965430614062,
+       "status": "reconstructed",
+       "confidence": 0.45358552157878873,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 36.0,
+       "x": null,
+       "y": null,
+       "px": 375.6152683504263,
+       "py": 624.1379983219915,
+       "status": "reconstructed",
+       "confidence": 0.4586124694347381,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 37.0,
+       "x": null,
+       "y": null,
+       "px": 381.36789719639535,
+       "py": 621.0614449813639,
+       "status": "reconstructed",
+       "confidence": 0.4578416883945465,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 38.0,
+       "x": null,
+       "y": null,
+       "px": 386.619010864627,
+       "py": 618.4162061720549,
+       "status": "reconstructed",
+       "confidence": 0.465540622472763,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 39.0,
+       "x": null,
+       "y": null,
+       "px": 391.72771182075974,
+       "py": 615.4997438565408,
+       "status": "reconstructed",
+       "confidence": 0.45862335205078125,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 40.0,
+       "x": null,
+       "y": null,
+       "px": 397.353634079533,
+       "py": 612.6544893699051,
+       "status": "reconstructed",
+       "confidence": 0.46028289020061486,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 41.0,
+       "x": null,
+       "y": null,
+       "px": 402.5295975095082,
+       "py": 609.7686377948704,
+       "status": "reconstructed",
+       "confidence": 0.4803858178853988,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 42.0,
+       "x": null,
+       "y": null,
+       "px": 408.03556086342,
+       "py": 606.9008269551455,
+       "status": "reconstructed",
+       "confidence": 0.4608561426401138,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 43.0,
+       "x": null,
+       "y": null,
+       "px": 413.5680848461434,
+       "py": 603.9708773371915,
+       "status": "reconstructed",
+       "confidence": 0.4581303817033767,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 44.0,
+       "x": null,
+       "y": null,
+       "px": 418.5975871648616,
+       "py": 601.2231346112995,
+       "status": "reconstructed",
+       "confidence": 0.4683947253227233,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 45.0,
+       "x": null,
+       "y": null,
+       "px": 424.0071130633936,
+       "py": 598.4627809276694,
+       "status": "reconstructed",
+       "confidence": 0.46009730815887445,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 46.0,
+       "x": null,
+       "y": null,
+       "px": 429.1404649512966,
+       "py": 595.5454795253972,
+       "status": "reconstructed",
+       "confidence": 0.4569703495502472,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 47.0,
+       "x": null,
+       "y": null,
+       "px": 434.4209700151869,
+       "py": 592.9421734248239,
+       "status": "reconstructed",
+       "confidence": 0.45883726537227626,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 48.0,
+       "x": null,
+       "y": null,
+       "px": 440.0753075031567,
+       "py": 589.6904249411095,
+       "status": "reconstructed",
+       "confidence": 0.4487931275367737,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 49.0,
+       "x": null,
+       "y": null,
+       "px": 445.2275755828059,
+       "py": 587.1990260596242,
+       "status": "reconstructed",
+       "confidence": 0.45409046888351434,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 50.0,
+       "x": null,
+       "y": null,
+       "px": 450.2808077382048,
+       "py": 584.3189344129158,
+       "status": "reconstructed",
+       "confidence": 0.4589159667491913,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 51.0,
+       "x": null,
+       "y": null,
+       "px": 455.74187726311766,
+       "py": 581.56059220511,
+       "status": "reconstructed",
+       "confidence": 0.4554081165790558,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 52.0,
+       "x": null,
+       "y": null,
+       "px": 461.7247486755181,
+       "py": 578.4332316449361,
+       "status": "reconstructed",
+       "confidence": 0.4606076055765152,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 53.0,
+       "x": null,
+       "y": null,
+       "px": 467.30128684039096,
+       "py": 575.2550362090499,
+       "status": "reconstructed",
+       "confidence": 0.45888319730758664,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 54.0,
+       "x": null,
+       "y": null,
+       "px": 472.7983910974378,
+       "py": 572.5366221229397,
+       "status": "reconstructed",
+       "confidence": 0.45409046888351434,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 55.0,
+       "x": null,
+       "y": null,
+       "px": 478.1147972558193,
+       "py": 569.556235333959,
+       "status": "reconstructed",
+       "confidence": 0.4651120966672897,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 56.0,
+       "x": null,
+       "y": null,
+       "px": 483.35617932428136,
+       "py": 566.790405906266,
+       "status": "reconstructed",
+       "confidence": 0.45883726537227626,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 57.0,
+       "x": null,
+       "y": null,
+       "px": 488.5287269462028,
+       "py": 564.0555949286068,
+       "status": "reconstructed",
+       "confidence": 0.45881820559501646,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 58.0,
+       "x": null,
+       "y": null,
+       "px": 493.6367978604121,
+       "py": 561.3732759367878,
+       "status": "reconstructed",
+       "confidence": 0.45829614400863644,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 59.0,
+       "x": null,
+       "y": null,
+       "px": 498.92415482780575,
+       "py": 558.5369502060569,
+       "status": "reconstructed",
+       "confidence": 0.4797763609886169,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 60.0,
+       "x": null,
+       "y": null,
+       "px": 503.9959795832765,
+       "py": 555.7286973667647,
+       "status": "reconstructed",
+       "confidence": 0.4582846534252166,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 61.0,
+       "x": null,
+       "y": null,
+       "px": 509.0854347092774,
+       "py": 553.202839383523,
+       "status": "reconstructed",
+       "confidence": 0.4598813277482986,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 62.0,
+       "x": null,
+       "y": null,
+       "px": 514.892931796584,
+       "py": 549.8239521126446,
+       "status": "reconstructed",
+       "confidence": 0.47081893444061274,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 63.0,
+       "x": null,
+       "y": null,
+       "px": 520.3554228624334,
+       "py": 547.1781046563187,
+       "status": "reconstructed",
+       "confidence": 0.4602742266654968,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 64.0,
+       "x": null,
+       "y": null,
+       "px": 525.7180237064708,
+       "py": 544.1947532182216,
+       "status": "reconstructed",
+       "confidence": 0.45790315389633174,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 65.0,
+       "x": null,
+       "y": null,
+       "px": 531.1785505327008,
+       "py": 541.3854385876493,
+       "status": "reconstructed",
+       "confidence": 0.465540622472763,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 66.0,
+       "x": null,
+       "y": null,
+       "px": 536.7112320191537,
+       "py": 538.4692998792566,
+       "status": "reconstructed",
+       "confidence": 0.45785573244094846,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 67.0,
+       "x": null,
+       "y": null,
+       "px": 542.0384158173824,
+       "py": 535.432483783226,
+       "status": "reconstructed",
+       "confidence": 0.4586124694347381,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 68.0,
+       "x": null,
+       "y": null,
+       "px": 547.3112725505782,
+       "py": 532.861979863148,
+       "status": "reconstructed",
+       "confidence": 0.45358552157878873,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 69.0,
+       "x": null,
+       "y": null,
+       "px": 552.8692432102634,
+       "py": 529.7130340651956,
+       "status": "reconstructed",
+       "confidence": 0.48495733737945557,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 70.0,
+       "x": null,
+       "y": null,
+       "px": 558.3613732212241,
+       "py": 526.9353514101794,
+       "status": "reconstructed",
+       "confidence": 0.4576780235767364,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 71.0,
+       "x": null,
+       "y": null,
+       "px": 563.5977474312544,
+       "py": 524.102540519267,
+       "status": "reconstructed",
+       "confidence": 0.4550924903154373,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 72.0,
+       "x": null,
+       "y": null,
+       "px": 569.8087979886852,
+       "py": 520.6936370047329,
+       "status": "reconstructed",
+       "confidence": 0.48356171786785124,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 73.0,
+       "x": null,
+       "y": null,
+       "px": 575.4831528881018,
+       "py": 517.8102150907164,
+       "status": "reconstructed",
+       "confidence": 0.4563142311573028,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 74.0,
+       "x": null,
+       "y": null,
+       "px": 581.0132308949034,
+       "py": 514.7856047754985,
+       "status": "reconstructed",
+       "confidence": 0.45445099353790275,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 75.0,
+       "x": null,
+       "y": null,
+       "px": 586.6423213713142,
+       "py": 511.7798211208094,
+       "status": "reconstructed",
+       "confidence": 0.4821933048963546,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 76.0,
+       "x": null,
+       "y": null,
+       "px": 592.0215101240576,
+       "py": 509.0616926412731,
+       "status": "reconstructed",
+       "confidence": 0.4559494507312774,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 77.0,
+       "x": null,
+       "y": null,
+       "px": 597.08675182142,
+       "py": 506.138475198067,
+       "status": "reconstructed",
+       "confidence": 0.45876813948154443,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 78.0,
+       "x": null,
+       "y": null,
+       "px": 602.4620766127786,
+       "py": 503.49650836122265,
+       "status": "reconstructed",
+       "confidence": 0.4623343849182129,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 79.0,
+       "x": null,
+       "y": null,
+       "px": 607.56664847554,
+       "py": 500.63474124925517,
+       "status": "reconstructed",
+       "confidence": 0.48016992866992947,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 80.0,
+       "x": null,
+       "y": null,
+       "px": 612.9499424977564,
+       "py": 497.8618023890177,
+       "status": "reconstructed",
+       "confidence": 0.46492803454399106,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 81.0,
+       "x": null,
+       "y": null,
+       "px": 618.86167762223,
+       "py": 494.7134493244424,
+       "status": "reconstructed",
+       "confidence": 0.4570027542114257,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 82.0,
+       "x": null,
+       "y": null,
+       "px": 624.1418826756951,
+       "py": 491.73532914024975,
+       "status": "reconstructed",
+       "confidence": 0.44687043070793153,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 83.0,
+       "x": null,
+       "y": null,
+       "px": 629.7258059950295,
+       "py": 488.9246795453339,
+       "status": "reconstructed",
+       "confidence": 0.4565816760063171,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 84.0,
+       "x": null,
+       "y": null,
+       "px": 635.7981214974064,
+       "py": 485.6891822440094,
+       "status": "reconstructed",
+       "confidence": 0.4560756647586822,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 85.0,
+       "x": null,
+       "y": null,
+       "px": 641.0763914829637,
+       "py": 482.70941996716044,
+       "status": "reconstructed",
+       "confidence": 0.4520746922492981,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 86.0,
+       "x": null,
+       "y": null,
+       "px": 646.2555348290655,
+       "py": 480.1824279817285,
+       "status": "reconstructed",
+       "confidence": 0.45828708529472345,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 87.0,
+       "x": null,
+       "y": null,
+       "px": 651.668777371703,
+       "py": 477.09038733318266,
+       "status": "reconstructed",
+       "confidence": 0.46010955870151515,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 88.0,
+       "x": null,
+       "y": null,
+       "px": 657.3305325180509,
+       "py": 474.25099742028266,
+       "status": "reconstructed",
+       "confidence": 0.46426981866359707,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 89.0,
+       "x": null,
+       "y": null,
+       "px": 662.4054458056689,
+       "py": 471.46669312893164,
+       "status": "reconstructed",
+       "confidence": 0.46016749799251555,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 90.0,
+       "x": null,
+       "y": null,
+       "px": 667.4662452986316,
+       "py": 468.8909490881601,
+       "status": "reconstructed",
+       "confidence": 0.43098573267459866,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 91.0,
+       "x": null,
+       "y": null,
+       "px": 672.6146578620554,
+       "py": 466.0145182127388,
+       "status": "reconstructed",
+       "confidence": 0.45767352461814875,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 92.0,
+       "x": null,
+       "y": null,
+       "px": 678.2557718798048,
+       "py": 463.11434500829824,
+       "status": "reconstructed",
+       "confidence": 0.49066605985164635,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 93.0,
+       "x": null,
+       "y": null,
+       "px": 683.5949434484896,
+       "py": 460.32465555059747,
+       "status": "reconstructed",
+       "confidence": 0.46889064431190486,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 94.0,
+       "x": null,
+       "y": null,
+       "px": 689.2410059688248,
+       "py": 457.1259474198241,
+       "status": "reconstructed",
+       "confidence": 0.4587683826684952,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 95.0,
+       "x": null,
+       "y": null,
+       "px": 694.4110417350641,
+       "py": 454.531293187287,
+       "status": "reconstructed",
+       "confidence": 0.4572878909111022,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 96.0,
+       "x": null,
+       "y": null,
+       "px": 699.7705861133315,
+       "py": 451.57177518478153,
+       "status": "reconstructed",
+       "confidence": 0.47859562754631035,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 97.0,
+       "x": null,
+       "y": null,
+       "px": 704.9006402014833,
+       "py": 448.9219836940957,
+       "status": "reconstructed",
+       "confidence": 0.45986871242523186,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 98.0,
+       "x": null,
+       "y": null,
+       "px": 710.0096933079101,
+       "py": 446.0317369793061,
+       "status": "reconstructed",
+       "confidence": 0.4544616937637329,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 99.0,
+       "x": null,
+       "y": null,
+       "px": 715.4255437843859,
+       "py": 443.327587959194,
+       "status": "reconstructed",
+       "confidence": 0.46551238238811493,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 100.0,
+       "x": null,
+       "y": null,
+       "px": 720.6849312960611,
+       "py": 440.46241818262246,
+       "status": "reconstructed",
+       "confidence": 0.45505859613418576,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 101.0,
+       "x": null,
+       "y": null,
+       "px": 725.8065662017751,
+       "py": 437.7386235705813,
+       "status": "reconstructed",
+       "confidence": 0.4553523659706116,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 102.0,
+       "x": null,
+       "y": null,
+       "px": 731.3926009508849,
+       "py": 434.82968989078404,
+       "status": "reconstructed",
+       "confidence": 0.45383828401565546,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 103.0,
+       "x": null,
+       "y": null,
+       "px": 737.2063495553901,
+       "py": 431.5558140075511,
+       "status": "reconstructed",
+       "confidence": 0.4474363267421722,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 104.0,
+       "x": null,
+       "y": null,
+       "px": 742.659386564146,
+       "py": 428.82487768789315,
+       "status": "reconstructed",
+       "confidence": 0.451023547053337,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 105.0,
+       "x": null,
+       "y": null,
+       "px": 748.8065572945014,
+       "py": 425.60038951935525,
+       "status": "reconstructed",
+       "confidence": 0.4872306185960769,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 106.0,
+       "x": null,
+       "y": null,
+       "px": 753.8424835940854,
+       "py": 422.7241691723951,
+       "status": "reconstructed",
+       "confidence": 0.45885258615016933,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 107.0,
+       "x": null,
+       "y": null,
+       "px": 759.0791413944683,
+       "py": 420.1832737421922,
+       "status": "reconstructed",
+       "confidence": 0.4519329142570495,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 108.0,
+       "x": null,
+       "y": null,
+       "px": 764.5363818912971,
+       "py": 417.0288710291361,
+       "status": "reconstructed",
+       "confidence": 0.4633937680721283,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 109.0,
+       "x": null,
+       "y": null,
+       "px": 769.5556606151207,
+       "py": 414.56512303223116,
+       "status": "reconstructed",
+       "confidence": 0.459089663028717,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 110.0,
+       "x": null,
+       "y": null,
+       "px": 774.9571370819892,
+       "py": 411.520892266642,
+       "status": "reconstructed",
+       "confidence": 0.4876761370897293,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 111.0,
+       "x": null,
+       "y": null,
+       "px": 779.9680477408531,
+       "py": 409.0505121072301,
+       "status": "reconstructed",
+       "confidence": 0.46558442652225496,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 112.0,
+       "x": null,
+       "y": null,
+       "px": 785.1255835394842,
+       "py": 406.1145537015227,
+       "status": "reconstructed",
+       "confidence": 0.45852136552333833,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 113.0,
+       "x": null,
+       "y": null,
+       "px": 790.4523307152584,
+       "py": 403.40281628771567,
+       "status": "reconstructed",
+       "confidence": 0.4605482983589172,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 114.0,
+       "x": null,
+       "y": null,
+       "px": 795.7821607762115,
+       "py": 400.4891762566645,
+       "status": "reconstructed",
+       "confidence": 0.4814786088466644,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 115.0,
+       "x": null,
+       "y": null,
+       "px": 801.0492429437975,
+       "py": 397.65094282221753,
+       "status": "reconstructed",
+       "confidence": 0.4633709692955017,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 116.0,
+       "x": null,
+       "y": null,
+       "px": 807.326888658476,
+       "py": 394.42045906774484,
+       "status": "reconstructed",
+       "confidence": 0.4606670343875885,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 117.0,
+       "x": null,
+       "y": null,
+       "px": 812.4457232295138,
+       "py": 391.54768716856086,
+       "status": "reconstructed",
+       "confidence": 0.44589120805263516,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 118.0,
+       "x": null,
+       "y": null,
+       "px": 817.8383897465333,
+       "py": 388.78964243679025,
+       "status": "reconstructed",
+       "confidence": 0.4558628761768341,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 119.0,
+       "x": null,
+       "y": null,
+       "px": 823.9425056356179,
+       "py": 385.6163461432034,
+       "status": "reconstructed",
+       "confidence": 0.4527808767557144,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 120.0,
+       "x": null,
+       "y": null,
+       "px": 829.2535710242939,
+       "py": 382.57453314484354,
+       "status": "reconstructed",
+       "confidence": 0.45914045870304104,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 121.0,
+       "x": null,
+       "y": null,
+       "px": 834.7378916413927,
+       "py": 379.8472654653758,
+       "status": "reconstructed",
+       "confidence": 0.4597549921274185,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 122.0,
+       "x": null,
+       "y": null,
+       "px": 840.6379102264993,
+       "py": 376.65266688719396,
+       "status": "reconstructed",
+       "confidence": 0.48211022615432736,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 123.0,
+       "x": null,
+       "y": null,
+       "px": 845.981841300399,
+       "py": 373.61204612963195,
+       "status": "reconstructed",
+       "confidence": 0.4603502529859542,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 124.0,
+       "x": null,
+       "y": null,
+       "px": 851.372676447286,
+       "py": 371.03552795594504,
+       "status": "reconstructed",
+       "confidence": 0.45696253716945645,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 125.0,
+       "x": null,
+       "y": null,
+       "px": 857.2345796581541,
+       "py": 367.69171230494953,
+       "status": "reconstructed",
+       "confidence": 0.4819437342882156,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 126.0,
+       "x": null,
+       "y": null,
+       "px": 862.7069944364714,
+       "py": 364.84788326012,
+       "status": "reconstructed",
+       "confidence": 0.4585077166557312,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 127.0,
+       "x": null,
+       "y": null,
+       "px": 867.7994772594851,
+       "py": 362.2232708606982,
+       "status": "reconstructed",
+       "confidence": 0.46034955382347104,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 128.0,
+       "x": null,
+       "y": null,
+       "px": 873.450458220828,
+       "py": 359.074289306584,
+       "status": "reconstructed",
+       "confidence": 0.46460854768753046,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 129.0,
+       "x": null,
+       "y": null,
+       "px": 879.10840231529,
+       "py": 356.29415288612313,
+       "status": "reconstructed",
+       "confidence": 0.45586336255073545,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 130.0,
+       "x": null,
+       "y": null,
+       "px": 884.3057219355193,
+       "py": 353.34583817331577,
+       "status": "reconstructed",
+       "confidence": 0.46145401775836936,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 131.0,
+       "x": null,
+       "y": null,
+       "px": 889.6496350139813,
+       "py": 350.61568238383575,
+       "status": "reconstructed",
+       "confidence": 0.4522824043035507,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 132.0,
+       "x": null,
+       "y": null,
+       "px": 895.3224551567112,
+       "py": 347.5545487924179,
+       "status": "reconstructed",
+       "confidence": 0.46140683948993677,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 133.0,
+       "x": null,
+       "y": null,
+       "px": 900.4758061771433,
+       "py": 344.7630009205607,
+       "status": "reconstructed",
+       "confidence": 0.45628249526023856,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 134.0,
+       "x": null,
+       "y": null,
+       "px": 906.2354836132008,
+       "py": 341.8046330321041,
+       "status": "reconstructed",
+       "confidence": 0.45519320011138914,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 135.0,
+       "x": null,
+       "y": null,
+       "px": 911.772546229622,
+       "py": 338.70777949245496,
+       "status": "reconstructed",
+       "confidence": 0.4801394695043564,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 136.0,
+       "x": null,
+       "y": null,
+       "px": 917.403294300666,
+       "py": 335.7632703922749,
+       "status": "reconstructed",
+       "confidence": 0.45942541301250456,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 137.0,
+       "x": null,
+       "y": null,
+       "px": 922.9417967529653,
+       "py": 332.8819765326978,
+       "status": "reconstructed",
+       "confidence": 0.45942960798740384,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 138.0,
+       "x": null,
+       "y": null,
+       "px": 927.7699891734364,
+       "py": 330.1968189279577,
+       "status": "reconstructed",
+       "confidence": 0.4655541801452637,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 139.0,
+       "x": null,
+       "y": null,
+       "px": 932.9710406909386,
+       "py": 327.5489506481646,
+       "status": "reconstructed",
+       "confidence": 0.4860411912202835,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 140.0,
+       "x": null,
+       "y": null,
+       "px": 937.980716937537,
+       "py": 324.7214597232954,
+       "status": "reconstructed",
+       "confidence": 0.46083759963512416,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 141.0,
+       "x": null,
+       "y": null,
+       "px": 942.9339201944008,
+       "py": 322.25424941220956,
+       "status": "reconstructed",
+       "confidence": 0.4605100572109222,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 142.0,
+       "x": null,
+       "y": null,
+       "px": 948.0316762079678,
+       "py": 319.46179198047685,
+       "status": "reconstructed",
+       "confidence": 0.46467138111591333,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 143.0,
+       "x": null,
+       "y": null,
+       "px": 953.5323228212038,
+       "py": 316.5923990170111,
+       "status": "reconstructed",
+       "confidence": 0.45704610228538506,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 144.0,
+       "x": null,
+       "y": null,
+       "px": 958.3641748972213,
+       "py": 314.0103073943293,
+       "status": "reconstructed",
+       "confidence": 0.488478502035141,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 145.0,
+       "x": null,
+       "y": null,
+       "px": 963.6788256179633,
+       "py": 311.2335280440295,
+       "status": "reconstructed",
+       "confidence": 0.46914176523685447,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 146.0,
+       "x": null,
+       "y": null,
+       "px": 969.3722515480374,
+       "py": 308.03231472634315,
+       "status": "reconstructed",
+       "confidence": 0.4521605676412582,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 147.0,
+       "x": null,
+       "y": null,
+       "px": 974.8046082062897,
+       "py": 305.3149071288848,
+       "status": "reconstructed",
+       "confidence": 0.45999358892440795,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 148.0,
+       "x": null,
+       "y": null,
+       "px": 980.5850044119453,
+       "py": 302.1856269881192,
+       "status": "reconstructed",
+       "confidence": 0.4631531953811645,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 149.0,
+       "x": null,
+       "y": null,
+       "px": 985.7342546444993,
+       "py": 299.3499274096831,
+       "status": "reconstructed",
+       "confidence": 0.4655667650699615,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 150.0,
+       "x": null,
+       "y": null,
+       "px": 991.000475563443,
+       "py": 296.6496264133109,
+       "status": "reconstructed",
+       "confidence": 0.4616244614124298,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 151.0,
+       "x": null,
+       "y": null,
+       "px": 996.36379106287,
+       "py": 293.68557471179224,
+       "status": "reconstructed",
+       "confidence": 0.454757621884346,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 152.0,
+       "x": null,
+       "y": null,
+       "px": 1001.3589702914119,
+       "py": 291.17184403928206,
+       "status": "reconstructed",
+       "confidence": 0.46977110266685485,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 153.0,
+       "x": null,
+       "y": null,
+       "px": 1006.9648345385192,
+       "py": 288.0282754590447,
+       "status": "reconstructed",
+       "confidence": 0.4670864099264145,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 154.0,
+       "x": null,
+       "y": null,
+       "px": 1012.4808629718563,
+       "py": 285.19769022735557,
+       "status": "reconstructed",
+       "confidence": 0.458127189874649,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 155.0,
+       "x": null,
+       "y": null,
+       "px": 1017.6966398975472,
+       "py": 282.38375410284624,
+       "status": "reconstructed",
+       "confidence": 0.453591570854187,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 156.0,
+       "x": null,
+       "y": null,
+       "px": 1023.4782174772326,
+       "py": 279.244686328756,
+       "status": "reconstructed",
+       "confidence": 0.47124469399452207,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 157.0,
+       "x": null,
+       "y": null,
+       "px": 1029.1571239199843,
+       "py": 276.38974094557335,
+       "status": "reconstructed",
+       "confidence": 0.45686222255229947,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 158.0,
+       "x": null,
+       "y": null,
+       "px": 1034.4402424921068,
+       "py": 273.39624548057964,
+       "status": "reconstructed",
+       "confidence": 0.45520274519920345,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 159.0,
+       "x": null,
+       "y": null,
+       "px": 1039.9018928417458,
+       "py": 270.66791606253446,
+       "status": "reconstructed",
+       "confidence": 0.4545978784561157,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 160.0,
+       "x": null,
+       "y": null,
+       "px": 1045.4510448616402,
+       "py": 267.59766762938534,
+       "status": "reconstructed",
+       "confidence": 0.4888510644435882,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 161.0,
+       "x": null,
+       "y": null,
+       "px": 1050.5633275283194,
+       "py": 264.8885586641498,
+       "status": "reconstructed",
+       "confidence": 0.4551272052526473,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 162.0,
+       "x": null,
+       "y": null,
+       "px": 1055.8764526971204,
+       "py": 262.19225182198056,
+       "status": "reconstructed",
+       "confidence": 0.464311950802803,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 163.0,
+       "x": null,
+       "y": null,
+       "px": 1061.2521419078384,
+       "py": 259.1619583632278,
+       "status": "reconstructed",
+       "confidence": 0.4618105298280716,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 164.0,
+       "x": null,
+       "y": null,
+       "px": 1066.7243529031325,
+       "py": 256.42262379008156,
+       "status": "reconstructed",
+       "confidence": 0.4624235129356384,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 165.0,
+       "x": null,
+       "y": null,
+       "px": 1071.9751576096685,
+       "py": 253.42535028313839,
+       "status": "reconstructed",
+       "confidence": 0.45626449942588804,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 166.0,
+       "x": null,
+       "y": null,
+       "px": 1077.5651814877374,
+       "py": 250.5781410694992,
+       "status": "reconstructed",
+       "confidence": 0.45675056934356684,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 167.0,
+       "x": null,
+       "y": null,
+       "px": 1082.718789636578,
+       "py": 247.748230149748,
+       "status": "reconstructed",
+       "confidence": 0.44687502086162567,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 168.0,
+       "x": null,
+       "y": null,
+       "px": 1088.501954932723,
+       "py": 244.65873444619913,
+       "status": "reconstructed",
+       "confidence": 0.45519332170486443,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 169.0,
+       "x": null,
+       "y": null,
+       "px": 1093.7017346987718,
+       "py": 242.01507125932258,
+       "status": "reconstructed",
+       "confidence": 0.4628027325868606,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 170.0,
+       "x": null,
+       "y": null,
+       "px": 1098.970585825808,
+       "py": 238.96598706449123,
+       "status": "reconstructed",
+       "confidence": 0.47216418385505676,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 171.0,
+       "x": null,
+       "y": null,
+       "px": 1104.2528894620568,
+       "py": 236.40404236808433,
+       "status": "reconstructed",
+       "confidence": 0.4640051400661468,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 172.0,
+       "x": null,
+       "y": null,
+       "px": 1109.5752242006047,
+       "py": 233.40771159734106,
+       "status": "reconstructed",
+       "confidence": 0.45596586585044857,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 173.0,
+       "x": null,
+       "y": null,
+       "px": 1114.7620703966722,
+       "py": 230.82902126222967,
+       "status": "reconstructed",
+       "confidence": 0.45936300516128536,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 174.0,
+       "x": null,
+       "y": null,
+       "px": 1120.389548083615,
+       "py": 227.68840425783537,
+       "status": "reconstructed",
+       "confidence": 0.48327636837959287,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 175.0,
+       "x": null,
+       "y": null,
+       "px": 1125.8311705696574,
+       "py": 224.71805086806606,
+       "status": "reconstructed",
+       "confidence": 0.4550899976491928,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 176.0,
+       "x": null,
+       "y": null,
+       "px": 1131.071769911242,
+       "py": 222.17783175392574,
+       "status": "reconstructed",
+       "confidence": 0.45491864204406735,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 177.0,
+       "x": null,
+       "y": null,
+       "px": 1137.0584681856676,
+       "py": 218.68817032730158,
+       "status": "reconstructed",
+       "confidence": 0.48492858052253723,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 178.0,
+       "x": null,
+       "y": null,
+       "px": 1142.531885092274,
+       "py": 215.98422003344785,
+       "status": "reconstructed",
+       "confidence": 0.456613472700119,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 179.0,
+       "x": null,
+       "y": null,
+       "px": 1147.8652053092685,
+       "py": 213.1189814554926,
+       "status": "reconstructed",
+       "confidence": 0.4604416304826736,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 180.0,
+       "x": null,
+       "y": null,
+       "px": 1153.7588792360016,
+       "py": 209.84666577773766,
+       "status": "reconstructed",
+       "confidence": 0.46322688102722165,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 181.0,
+       "x": null,
+       "y": null,
+       "px": 1159.0932322243063,
+       "py": 207.27406501684612,
+       "status": "reconstructed",
+       "confidence": 0.45577292740345,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 182.0,
+       "x": null,
+       "y": null,
+       "px": 1164.0477163543014,
+       "py": 204.36990508026133,
+       "status": "reconstructed",
+       "confidence": 0.460569577217102,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 183.0,
+       "x": null,
+       "y": null,
+       "px": 1169.4172113274174,
+       "py": 201.74745975429565,
+       "status": "reconstructed",
+       "confidence": 0.4543938142061233,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 184.0,
+       "x": null,
+       "y": null,
+       "px": 1174.7875385734728,
+       "py": 198.7376146618377,
+       "status": "reconstructed",
+       "confidence": 0.4813204157352447,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 185.0,
+       "x": null,
+       "y": null,
+       "px": 1179.9126081871264,
+       "py": 196.1329748404217,
+       "status": "reconstructed",
+       "confidence": 0.4617079049348831,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 186.0,
+       "x": null,
+       "y": null,
+       "px": 1185.861183115922,
+       "py": 192.9575914992796,
+       "status": "reconstructed",
+       "confidence": 0.45965814292430873,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 187.0,
+       "x": null,
+       "y": null,
+       "px": 1191.2498420403963,
+       "py": 189.9764785059378,
+       "status": "reconstructed",
+       "confidence": 0.4792935740947723,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 188.0,
+       "x": null,
+       "y": null,
+       "px": 1196.852591445334,
+       "py": 187.09371211511169,
+       "status": "reconstructed",
+       "confidence": 0.46645202636718747,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 189.0,
+       "x": null,
+       "y": null,
+       "px": 1202.1177185962335,
+       "py": 184.21868876712745,
+       "status": "reconstructed",
+       "confidence": 0.4590875959396362,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 190.0,
+       "x": null,
+       "y": null,
+       "px": 1207.0287303376906,
+       "py": 181.72556694707112,
+       "status": "reconstructed",
+       "confidence": 0.4657928377389908,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 191.0,
+       "x": null,
+       "y": null,
+       "px": 1212.3163992591176,
+       "py": 178.67212888449689,
+       "status": "reconstructed",
+       "confidence": 0.48135695457458494,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 192.0,
+       "x": null,
+       "y": null,
+       "px": 1217.4492569644508,
+       "py": 176.10168531161202,
+       "status": "reconstructed",
+       "confidence": 0.46266210973262784,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 193.0,
+       "x": null,
+       "y": null,
+       "px": 1222.4485085599774,
+       "py": 173.3493933937332,
+       "status": "reconstructed",
+       "confidence": 0.4613050961494446,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 194.0,
+       "x": null,
+       "y": null,
+       "px": 1227.666488340666,
+       "py": 170.72028510018743,
+       "status": "reconstructed",
+       "confidence": 0.42860198378562925,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 195.0,
+       "x": null,
+       "y": null,
+       "px": 1233.012698876629,
+       "py": 167.69095670186167,
+       "status": "reconstructed",
+       "confidence": 0.4523325008153915,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 196.0,
+       "x": null,
+       "y": null,
+       "px": 1237.9493026655432,
+       "py": 165.30757278950557,
+       "status": "reconstructed",
+       "confidence": 0.45877035856246945,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 197.0,
+       "x": null,
+       "y": null,
+       "px": 1243.422810824738,
+       "py": 162.26278629749183,
+       "status": "reconstructed",
+       "confidence": 0.46133519053459165,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 198.0,
+       "x": null,
+       "y": null,
+       "px": 1249.0025094177756,
+       "py": 159.25521529775676,
+       "status": "reconstructed",
+       "confidence": 0.44911535024642946,
+       "method": "centre-line, adaptive sampling"
+      },
+      {
+       "idx": 199.0,
+       "x": null,
+       "y": null,
+       "px": 1256.0,
+       "py": 155.43441660233975,
+       "status": "reconstructed",
+       "confidence": 0.451613974571228,
+       "method": "centre-line, adaptive sampling"
+      }
+     ],
+     "errors": null,
+     "band": null,
+     "confidence": 0.46220949534773825,
+     "legend_matched": false,
+     "warnings": [],
+     "visible": true,
+     "extra": {
+      "coverage": 1.0,
+      "line_thickness_px": 5.0,
+      "n_markers": 0,
+      "area": false,
+      "cluster_hex": "#1d74b3",
+      "min_ambiguity": 1.0
+     }
+    }
+   ],
+   "bars": null,
+   "pie": null,
+   "quality": {
+    "parts": {
+     "image_resolution": 0.997,
+     "calibration": 0.0,
+     "ocr": 0.0,
+     "curve_separation": 1.0,
+     "point_coverage": 1.0,
+     "point_confidence": 0.462
+    },
+    "overall": 0.492,
+    "grade": "poor",
+    "n_series": 1,
+    "resize_scale": 1.8181818181818181,
+    "noise_sigma": 0.08
+   },
+   "warnings": [
+    "X axis: Tick labels could not be read reliably by OCR; enter the tick values manually.",
+    "Y axis: Tick labels could not be read reliably by OCR; enter the tick values manually.",
+    "Axis calibration is missing: points are in pixel coordinates only (x/y = NaN) until you enter the axis tick values in 'Image Processing'."
+   ],
+   "analysis": {
+    "series": {
+     "Series 1": {
+      "name": "Series 1",
+      "kind": "line",
+      "axis": "y",
+      "n_points_total": 200,
+      "n_by_status": {
+       "reconstructed": 200
+      },
+      "fit_source": "dense (reconstructed from the line)",
+      "n_used": 0,
+      "cleaning": {
+       "n_in": 0,
+       "n_out": 0,
+       "merged": 0
+      },
+      "skipped": "fewer than 3 usable points"
+     }
+    },
+    "options": {
+     "fit_source": "auto",
+     "quick": false,
+     "custom": [],
+     "deriv_method": "spline",
+     "run_fits": true,
+     "include_interpolated": false
+    },
+    "comparison": {},
+    "intersections": [],
+    "uncertainty": [],
+    "units": {
+     "x": null,
+     "y": null,
+     "area": null,
+     "x_title": null,
+     "y_title": null
+    },
+    "limitations": [
+     "Data were digitised from a raster/vector image: reconstructed points are NOT original measurements.",
+     "Fitted equations are approximate descriptions of the digitised curve, not the true law of the phenomenon.",
+     "Derivatives and integrals are numerical estimates computed from the extracted points."
+    ]
+   },
+   "log": [
+    "1 colour cluster(s): ['#1d74b3']"
+   ]
+  }
+ ],
+ "active_chart": 0,
+ "manual_edits": [],
+ "processing_log": [
+  "00:25:21 | Loaded 01_single_linear.png (770x495, PNG)",
+  "00:25:21 | OCR engine not available - axis values must be entered manually.",
+  "00:25:21 | preprocess: upscaled x1.82 (low resolution input)",
+  "00:25:21 | 1 plot area(s) detected",
+  "00:25:21 | panel 1: line, 1 series, 200 points, quality 0.492"
+ ],
+ "is_sample": true
+}

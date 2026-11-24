@@ -1,0 +1,10 @@
+2026-11-23 00:25:00,339 | INFO    | graphinsight.loader | Loaded photo_2026-11-18_23-39-33.jpg (972x783)
+2026-11-23 00:25:00,394 | INFO    | graphinsight.preprocess | Preprocess: upscaled x1.50 (low resolution input)
+2026-11-23 00:25:00,464 | INFO    | graphinsight.plotarea | Detected 1 plot area(s) at threshold 110
+2026-11-23 00:25:01,164 | INFO    | graphinsight.curves | Found 7 colour cluster(s): ['#e3d19b', '#c45357', '#3cd63c', '#b34ec7', '#0a090a', '#c7fcc5', '#6c6c6c']
+2026-11-23 00:25:01,205 | INFO    | graphinsight.legend | Legend entries: [None, None, None, None, None]
+2026-11-23 00:25:21,656 | INFO    | graphinsight.loader | Loaded 01_single_linear.png (770x495)
+2026-11-23 00:25:21,693 | INFO    | graphinsight.preprocess | Preprocess: upscaled x1.82 (low resolution input)
+2026-11-23 00:25:21,744 | INFO    | graphinsight.plotarea | Detected 1 plot area(s) at threshold 110
+2026-11-23 00:25:21,839 | INFO    | graphinsight.curves | Found 1 colour cluster(s): ['#1d74b3']
+2026-11-23 00:25:21,850 | INFO    | graphinsight.legend | Legend entries: []
